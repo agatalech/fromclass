@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.main{
+  background-color: rgb(200, 80, 120, 0.75);
+  height: 100px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+.container{
+width: 70%;
+margin: auto;
+height: 400px;
+background-color: rgb(200, 80, 120, 0.6);
+border-radius: 20% 10% 20% 10%;
+
+}
+
+.pukpuk{
+  width: 30%;
+  height: 200px;
+background-color: rgb(200, 80, 120, 0.6);
+border-radius: 50% 50% 50% 50%;
+}
+
+.bgimage{
+  height: 500px;
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/414660/pexels-photo-414660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+}
+.heading-intro{
+font-size: 40px;
+color: black;
+text-align: center;
+padding-top: 40px;
+}
+
+.main-intro {
+  width: 70%;
+  margin: auto;
+}
+
+.logo-image {
+  height: 100px;
+
+}
+.menu{
+  margin-left: 400px;
+  margin-top: -88px;
+}
+
+a{
+  font-size: 28px;
+color: purple;
+text-decoration: none;
+padding: 30px
+
+}
+a:hover{
+  background-color: white;
+  border-radius: 40px 20px 40px 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+h1:hover {
+  color: white;
+
+}
+
+li{
+  display: inline;
+
+}
+
+.btn{
+
+  font-size: 25px;
+  background-color: rgba(255, 105, 180, 0.3);
+  color: black;
+  height: 80px;
+  width: 350px;
+
+}
+.btn:hover{
+background-color: rgba(127,255,212, 0.7);
+background-image: url("https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+background-size: cover;
+color: black;
+
+}
+.contains {
+  height: 300px;
+  width: 100%;
+  background-color: rgba(219, 112, 147, 0.7);
+  position: relative;
+
+}
+
+.anothercontainer{
+  background-color: white;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  right: 50%;
+  top: 20%;
+  border: 3px solid purple;
+
+}
+
+.anothercontainer:hover{
+background-image: url("https://images.pexels.com/photos/2251822/pexels-photo-2251822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+background-size: cover;
+}
